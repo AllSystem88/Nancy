@@ -75,7 +75,7 @@ def parse_tg_link(link: str) -> Tuple[Optional[str], Optional[int]]:
 
 
 async def fetch_song(query: str, streamtype: str) -> dict:
-    api_url = "http://47.129.201.23:2020/try"
+    api_url = "http://54.254.215.45:2020/try"
     vid = "true" if streamtype.lower() == "video" else "false"
     params = {"query": query, "vid": vid}
 
